@@ -4,7 +4,6 @@ import { lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const Results = lazy(async () => import('pages/Results'))
-// const Match = lazy(async () => import('pages/Match'))
 
 export default function App(): ReactElement {
 	return (

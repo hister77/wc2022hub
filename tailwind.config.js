@@ -7,6 +7,11 @@ const config = {
 	theme: {
 		fontFamily: {
 			sans: ['Inter', ...defaultConfig.theme.fontFamily.sans]
+		},
+		extend: {
+			spacing: {
+				88: '22rem'
+			}
 		}
 	},
 	experimental: { optimizeUniversalDefaults: true },
