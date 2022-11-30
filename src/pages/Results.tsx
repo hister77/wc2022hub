@@ -62,8 +62,9 @@ export default function Matches(): ReactElement {
 			<Head title='Fixtures & Results' />
 
 			<div className='mx-auto mt-1 lg:w-[1280px]'>
-				<div>
-					<legend> Group by:</legend>
+				<div className='ml-2'>
+					<span> Group by:</span>
+					<br />
 					<input
 						type='radio'
 						id='date'
