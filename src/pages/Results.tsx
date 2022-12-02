@@ -40,11 +40,7 @@ export default function Matches(): ReactElement {
 		['matches'],
 		getMatches,
 		{
-			select: data =>
-				groupResults(
-					data.Results.filter(result => result.IdStage === '285063'),
-					key
-				)
+			select: data2 => groupResults(data2.Results, key)
 		}
 	)
 
@@ -94,7 +90,7 @@ export default function Matches(): ReactElement {
 						</span>
 						<div className='mb-4 flex w-full flex-row flex-wrap justify-between gap-x-4 md:mx-auto md:justify-evenly'>
 							{results.map(result => (
-								<Match key={`Result-${result.IdMatch}`} result={result} />
+								<Match key={`result-${result.IdMatch}`} result={result} />
 							))}
 						</div>
 					</div>
