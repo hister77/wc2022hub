@@ -10,6 +10,7 @@ specifiers:
   '@testing-library/react': 13.4.0
   '@testing-library/user-event': 14.4.3
   '@types/css-mediaquery': 0.1.1
+  '@types/lodash': ^4.14.191
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@types/react-router-dom': 5.3.3
@@ -40,6 +41,7 @@ specifiers:
   husky: 8.0.2
   jsdom: 20.0.2
   lint-staged: 13.0.3
+  lodash: ^4.17.21
   msw: 0.48.3
   npm-run-all: 4.1.5
   postcss: 8.4.19
@@ -64,7 +66,9 @@ specifiers:
 
 dependencies:
   '@tanstack/react-query': 4.13.5_biqbaboplfbrettd7655fr4n2y
+  '@types/lodash': 4.14.191
   date-fns: 2.29.3
+  lodash: 4.17.21
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
@@ -1970,6 +1974,10 @@ packages:
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
+
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
+    dev: false
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
@@ -5562,7 +5570,6 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /log-symbols/4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
