@@ -59,7 +59,7 @@
 			"error",
 			{
 				"ignoreEnums": true,
-				"ignore": [0],
+				"ignore": [0, 1, -1],
 				"enforceConst": true,
 				"detectObjects": true
 			}
