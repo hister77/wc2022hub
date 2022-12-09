@@ -5,9 +5,9 @@ export function roundTo(decimal: number, place = 2): number {
 }
 
 export function formatName(name: string): string {
-	return name
-		.trim()
-		.split(/\s+/)
+	const shortName = name.trim().split(/\s+/)
+	if (shortName.length < 2) return `${name[0]}${name.slice(1).toLowerCase()}`
+	return shortName
 		.map((part, index) => {
 			if (index === 0) return `${part[0]}.`
 			const capitalized = part.includes('-')
